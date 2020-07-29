@@ -1,0 +1,12 @@
+version: "3"
+services:
+  backend:
+    environment:
+      - ALLOWED_ORIGIN=https://kurchat-ao.staging.forasoft.com
+      - KURENTO_URL=ws://kms:8888/kurento
+    ports:
+      - 10024:8889
+
+  frontend:
+    ports:
+      - 10025:80

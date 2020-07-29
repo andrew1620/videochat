@@ -1,0 +1,32 @@
+.userVideo {
+  width: 50%;
+  height: 50%;
+  display: inline;
+  position: relative;
+}
+.userVideo:hover > div {
+  height: 40px;
+}
+.mute {
+  z-index: 2;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: rgb(223, 68, 68);
+  font-size: 20px;
+}
+.videoStop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(27, 28, 29);
+  display: flex;
+}
+.video {
+  object-fit: cover;
+}
+.videoPic {
+  color: azure;
+  font-size: 90px;
+  margin: auto;
+}

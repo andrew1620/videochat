@@ -1,0 +1,5 @@
+.videoChat {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}

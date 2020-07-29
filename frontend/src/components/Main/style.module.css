@@ -1,0 +1,13 @@
+.mainBox {
+  /* width: 700px;
+  height: 530px; */
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #eee;
+}
+.spinner {
+  margin: auto;
+}
